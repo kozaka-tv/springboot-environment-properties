@@ -19,7 +19,10 @@ public class Application implements CommandLineRunner {
 	// spring.profiles.active=production
 	// OR whatever the target environment is
 	//
-	// All values here are configured in /src/main/resources/application.yml
+	// All values here are configured in:
+	// src/main/resources/application-devel.properties
+	// OR
+	// src/main/resources/application-production.properties
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(Application.class);
 		app.run(args);
