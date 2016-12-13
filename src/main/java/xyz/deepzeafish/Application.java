@@ -22,7 +22,7 @@ public class Application implements CommandLineRunner {
 	// All values here are configured in:
 	// src/main/resources/application-devel.properties
 	// OR
-	// src/main/resources/application-production.properties
+	// src/main/resources/application-production.properties 
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(Application.class);
 		app.run(args);
